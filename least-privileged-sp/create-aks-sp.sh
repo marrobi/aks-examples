@@ -9,7 +9,7 @@ NAME=${1:-tmp-lpsp-sp}
 VNET_NAME=${2:-lpsp-network}
 VNET_RG=${3:-tmp-lpsp-vnet}
 IP_RG=${4:-tmp-lpsp-ip}
-ACR_NAME=${4:-lpspacr}
+ACR_NAME=${5:-lpspacr}
 
 IP_ROLE_NAME="AKS IP Role"
 VNET_ROLE_NAME="AKS VNet Role"
